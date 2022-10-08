@@ -212,14 +212,15 @@ console.log("I am inviting " + peopel5.length + " peoples to dinner.");
 
 // 19
 
-let country = ["Pakistan", "India", "Iran", "Iraq"]
+let cars = []
 
-console.log("Coutries List");
-
-for (let i = 1; i < country.length + 1; i++) {
-    console.log(i + ") " + country[i]);
+const addCars = (...list) => {
+    cars.push(...list)
 }
 
+addCars("suzuki", "bmw", "toyota")
+
+console.log(cars);
 
 
 // 20
@@ -302,10 +303,10 @@ console.log('If "yashi" == "Hurain" || 66 > 33? I predict True');
 console.log("yashi" == "Hurain" || 66 > 33);
 console.log('If "yashi" == "Hurain" || 66 < 33? I predict False');
 console.log("yashi" == "Hurain" || 66 < 33);
-console.log('If [100, 200, 300].includes(12)? I predict True');
+console.log('If [100, 200, 300].includes(200)? I predict True');
 console.log([100, 200, 300].includes(200));
 console.log('If [100, 200, 300].includes(65)? I predict False');
-console.log([100, 200, 300].includes(301));
+console.log([100, 200, 300].includes(65));
 
 
 
@@ -488,8 +489,8 @@ for (let i = 0; i < pizzaName.length; i++) {
 }
 
 console.log("I really like " + pizzaName[0] + " pizza");
-console.log("I mostly like " + pizzaName[2] + " pizza");
-console.log("I sometimes like " + pizzaName[3] + " pizza");
+console.log("I mostly like " + pizzaName[1] + " pizza");
+console.log("I sometimes like " + pizzaName[2] + " pizza");
 
 
 
@@ -527,7 +528,7 @@ const makeShirt2 = (size = "large", message) => {
   }
 };
 
-makeShirt("large", "Mi Amore");
+makeShirt2("large", "Mi Amore");
 
 
 
@@ -590,12 +591,12 @@ let magicians2 = ["Jason Ralph", "Olivia Rudley", "Stella"];
 
 const makeGreat = (array) => {
     array.map((name) => {
-    magicians[magicians.indexOf(name)] = "Great " + name;
+    array[array.indexOf(name)] = "Great " + name;
   });
   console.log(array);
 };
 
-makeGreat(magicians);
+makeGreat(magicians2);
 
 
 
