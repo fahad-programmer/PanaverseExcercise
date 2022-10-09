@@ -1,11 +1,11 @@
-// 1
+// 2
 
 let personName = "Fahad Malik";
 console.log("Hello " + personName + ",  would you like to learn some Java today?");
 
 
 
-// 2
+// 3
 
 let userName = "fahad malik";
 let lowerUserName = userName.toLowerCase();
@@ -20,13 +20,13 @@ console.log(titleUserName);
 
 
 
-// 3
+// 4
 
 console.log("Tony Stark once said, \"Sometimes you've gotta run before you can walk.\"");
 
 
 
-// 4
+// 5
 
 let famousPerson = "Bill Gates";
 let message = famousPerson + ' once said, "The belief that the world is getting worse, that we can\'t solve extreme poverty and disease, isn\'t just mistaken."';
@@ -34,7 +34,7 @@ console.log(message);
   
 
 
-// 5
+// 6
 
 let personName2 = " \tFahad Malik  \n";
 console.log(personName2);    // No Stripp
@@ -42,7 +42,7 @@ console.log(personName2.trim()); // Stripped
 
 
 
-// 6
+// 7
 
 console.log(5 + 3);
 console.log(13 - 5);
@@ -51,7 +51,7 @@ console.log(8 / 1);
 
 
 
-// 7
+// 8
 
 console.log(2 + 6);
 console.log(16 - 8);
@@ -60,7 +60,7 @@ console.log(16 / 2);
 
 
 
-// 8
+// 9
 
 let favoriteNumber = '20'
 let message2 = "My favourite num is " + favoriteNumber
@@ -69,7 +69,7 @@ console.log(message2);
 
 
 
-// 9
+// 10
 
 // Print Your name in console
 let personName3 = "Imran Akbar"; // Person Name
@@ -83,7 +83,7 @@ console.log(16 / 2);    // Diving 2 from 16 is 8
 
 
 
-// 10
+// 11
 
 let friendNames = ["Imran", "Hassan", "Shahzaib", "Yashi"];
 friendNames.map((name) => {
@@ -92,7 +92,7 @@ friendNames.map((name) => {
 
 
 
-// 11
+// 12
 
 let friendNames2 = ["Imran", "Hassan", "Shahzaib", "Yashi"];
 friendNames2.forEach((name) => {
@@ -101,7 +101,7 @@ friendNames2.forEach((name) => {
 
 
 
-// 12
+// 13
 
 let transportMode = ['plane', 'Bike', 'Car']
 let transportBrand = ["F-16", "Honda", "Mercedes"]
@@ -112,7 +112,7 @@ for (let i = 0; i < transportMode.length; i++) {
 
 
 
-// 13
+// 14
 
 let people = ["Elon Musk", "Bill Gates", "Jeff Bezos"]
 
@@ -122,7 +122,7 @@ people.map(name => {
 
 
 
-// 14
+// 15
 
 let people2 = ["Elon Musk", "Bill Gates", "Jeff Bezos"]
 
@@ -138,7 +138,7 @@ people2.map((name) => {
 
 
 
-// 15
+// 16
 
 let people3 = ["Elon Musk", "Bill Gates", "Jack Ma"];
 
@@ -156,7 +156,7 @@ people3.map((name) => {
 
 
 
-// 16
+// 17
 
 let peopel4 = ["Mar Zukerberg", "Elon Musk", "Warren Buffet", "Bill Gates", "Jack Ma", "Larry Paige"];
 
@@ -177,7 +177,7 @@ console.log(peopel4.splice(2));
 
 
 
-// 17
+// 18
 
 let places = ["Karachi", "Multan", "Sargodha", "Mardan", "Islamabad"]
 let places2 = [...places] // Copy Orignial Array
@@ -203,14 +203,14 @@ console.log(places.reverse());
 
 
 
-// 18
+// 19
 
 let peopel5 = ["Mar Zukerberg", "Elon Musk", "Warren Buffet", "Bill Gates", "Jack Ma", "Larry Paige"];
 console.log("I am inviting " + peopel5.length + " peoples to dinner.");
 
 
 
-// 19
+// 20
 
 let cars = []
 
@@ -223,7 +223,7 @@ addCars("suzuki", "bmw", "toyota")
 console.log(cars);
 
 
-// 20
+// 21
 
 let carData = {
   brand: 'Honda',
@@ -236,7 +236,7 @@ console.log(carData);
 
 
 
-// 21
+// 22
 
 let pakProvince = ["Capital", "KPK", "Punjab", "Sindh", "Kashmir", "Balochistan"];
 
@@ -246,7 +246,7 @@ console.log(pakProvince[6]); // Undefined
 
 
 
-// 22
+// 23
 
 let name = "fahad"
 let firstNum = 1
@@ -275,7 +275,7 @@ console.log(firstNum == 10);
 
 
 
-// 23
+// 24
 
 console.log('If "fahad" == "fahad"? I predict True');
 console.log("fahad" == "fahad");
@@ -310,7 +310,7 @@ console.log([100, 200, 300].includes(65));
 
 
 
-// 24
+// 25
 
 let alienColor = "green";
 
@@ -323,7 +323,7 @@ if (alienColor != "green") {
 
 
 
-// 25
+// 26
 
 let alienColor2 = "green";
 
@@ -335,7 +335,7 @@ if (alienColor2 == "green") {
 
 
 
-// 26
+// 27
 
 let alienColor3 = "green";
 
@@ -373,7 +373,7 @@ if (alienColor3 == "green") {
 
 
 
-// 27
+// 28
 
 let age = 25;
 
@@ -393,7 +393,7 @@ if (age < 2) {
 
 
 
-// 28
+// 29
 
 let favoriteFruits = ["Apple", "Orange", "Grapes"];
 
@@ -415,7 +415,7 @@ if (favoriteFruits.includes("mango")) {
 
 
 
-// 29
+// 30
 
 let usernames = ["fire", "water", "dragon", "horse", "admin"];
 
@@ -429,7 +429,7 @@ usernames.map((name) => {
 
 
 
-// 30
+// 31
 
 let username2 = [];
 
@@ -447,7 +447,7 @@ if (username2.length == 0) {
 
 
 
-// 31
+// 32
 
 let current = ["admin", "leader", "user", "customer", "online"];
 let _new = ["Leader", "soldier", "king", "online", "servant"];
@@ -462,7 +462,7 @@ _new.map((user) => {
 
 
 
-// 32
+// 33
 
 let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
@@ -480,7 +480,7 @@ nums.forEach((num) => {
 
 
 
-// 33
+// 34
 
 let pizzaName = ["BBQ", "Fried", "Italian"]
 
@@ -494,7 +494,7 @@ console.log("I sometimes like " + pizzaName[2] + " pizza");
 
 
 
-// 34
+// 35
 
 let animals = ["cat", "dog", "wolf"];
 
@@ -508,7 +508,7 @@ console.log("Wolf would make even great pet");
 
 
 
-// 35
+// 36
 
 const makeShirt = (size, message) => {
   console.log("The shirt size is " + size + " and the message to print on is " + message);
@@ -518,7 +518,7 @@ makeShirt('large', "Mi Amore")
 
 
 
-// 36
+// 37
 
 const makeShirt2 = (size = "large", message) => {
   if (size == "large" || size == "medium") {
@@ -532,7 +532,7 @@ makeShirt2("large", "Mi Amore");
 
 
 
-// 37
+// 38
 
 function describeCity(name, countryName = "Pakistan") {
   console.log(name + " is in " + countryName);
@@ -544,7 +544,7 @@ describeCity("dubai");
 
 
 
-// 38
+// 39
 
 function cityCountry(cityName, countryName) {
   console.log(`"${cityName}, ${countryName}"`);
@@ -554,7 +554,7 @@ cityCountry("Dubai", "UAE");
 
 
 
-// 39
+// 40
 
 const makeAlbum = (artistName, albumTitle, numOfTracks = 0) => {
   return {
@@ -571,7 +571,7 @@ console.log(makeAlbum('Adele', '21', 11));
 
 
 
-// 40
+// 41
 
 let magicians = ["Jason Ralph", "Olivia Rudley", "Stella"];
 
@@ -585,7 +585,7 @@ showMagicians(magicians);
 
 
 
-// 41
+// 42
 
 let magicians2 = ["Jason Ralph", "Olivia Rudley", "Stella"];
 
@@ -600,7 +600,7 @@ makeGreat(magicians2);
 
 
 
-// 42
+// 43
 
 let magicians3 = ["Jason Ralph", "Olivia Rudley", "Stella"];;
 let magiciansCopy = [...magicians3];
@@ -624,7 +624,7 @@ showMagicians2(newArray);
 
 
 
-// 43
+// 44
 
 function itemsForSandwich(array) {
   console.log("The person is demanding for the following items on the sandwich: ");
@@ -639,7 +639,7 @@ itemsForSandwich(["Ketchup", "Mayonese", "Kabab", "Tomato"]);
 
 
 
-// 44
+// 45
 
 const carInfo = (manufacturer, model, ...information) => {
   let lastObject = Object.assign(information[0], information[1]);
