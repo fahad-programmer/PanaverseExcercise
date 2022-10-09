@@ -489,8 +489,8 @@ for (let i = 0; i < pizzaName.length; i++) {
 }
 
 console.log("I really like " + pizzaName[0] + " pizza");
-console.log("I mostly like " + pizzaName[1] + " pizza");
-console.log("I sometimes like " + pizzaName[2] + " pizza");
+console.log("I mostly like " + pizzaName[2 + " pizza");
+console.log("I sometimes like " + pizzaName[3] + " pizza");
 
 
 
